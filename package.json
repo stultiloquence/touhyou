@@ -1,0 +1,19 @@
+{
+  "name": "touhyou",
+  "version": "0.0.1",
+  "description": "Proof of concept real-time voting app",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias, Leon",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "express": "^4.18.1",
+    "lodash-es": "^4.17.21",
+    "ws": "^8.8.1"
+  }
+}
